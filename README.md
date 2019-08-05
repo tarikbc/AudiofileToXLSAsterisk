@@ -17,13 +17,13 @@ The files must be inside the "audios" folder, with a folder for each day inside:
 ```bash
 
 /audios
--/26
--/27
--/28
-  -rg-XXXX-XXXXXXXX-20190101-010101-XXXXXXXXXX.XX.wav
-  -rg-XXXX-XXXXXXXX-20190101-010101-XXXXXXXXXX.XX.wav
-  -rg-XXXX-XXXXXXXX-20190101-010101-XXXXXXXXXX.XX.wav
--/29
+  /26
+  /27
+  /28
+    rg-XXXX-XXXXXXXX-20190101-010101-XXXXXXXXXX.XX.wav
+    rg-XXXX-XXXXXXXX-20190101-010101-XXXXXXXXXX.XX.wav
+    rg-XXXX-XXXXXXXX-20190101-010101-XXXXXXXXXX.XX.wav
+  /29
 ```
 
 ## Contributing
