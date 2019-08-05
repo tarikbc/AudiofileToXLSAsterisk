@@ -14,6 +14,7 @@ pip install xlwt
 ## Usage
 
 The files must be inside the "audios" folder, with a folder for each day inside:
+```bash
 
 /audios
 -/26
@@ -23,6 +24,7 @@ The files must be inside the "audios" folder, with a folder for each day inside:
   -rg-XXXX-XXXXXXXX-20190101-010101-XXXXXXXXXX.XX.wav
   -rg-XXXX-XXXXXXXX-20190101-010101-XXXXXXXXXX.XX.wav
 -/29
+```
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
