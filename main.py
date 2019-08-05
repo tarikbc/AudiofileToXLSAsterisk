@@ -19,8 +19,8 @@ for dia in os.listdir('audios'):
           if(filename != '.DS_Store'):     
                linha += 1
                sheet1.write(linha, 0, filename.split('-')[3][0:4]+'-'+filename.split('-')[3][4:6]+'-'+filename.split('-')[3][6:8]+' '+filename.split('-')[4][0:2]+':'+filename.split('-')[4][2:4]+':'+filename.split('-')[4][4:6])
-               sheet1.write(linha, 1, filename.split('-')[1])
-               sheet1.write(linha, 2, filename.split('-')[2])
+               sheet1.write(linha, 1, filename.split('-')[2])
+               sheet1.write(linha, 2, filename.split('-')[1])
                try:
                     f = sf.SoundFile('audios/'+dia+'/'+filename)
                     sheet1.write(linha, 3, len(f) / f.samplerate)
